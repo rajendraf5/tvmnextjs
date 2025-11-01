@@ -1,5 +1,4 @@
-
-"use client+++"
+"use client";
 import Image from 'next/image';
 import data from "@/app/data/contactinfo"
 import ContactForm from '@/components/ContactForm';
@@ -45,15 +44,11 @@ const Contact = () =>{
             >
               <div className="contact-box rounded-2 p-3 text-white d-flex align-items-stretch w-100">
                 <div className="d-flex flex-column text-center w-100">
-                  {/* Icon Section */}
                   <div className="contact-icon mx-auto mb-3">
                     <i className={`bi ${item.icon} fs-2`}></i>
                   </div>
-
-                  {/* Title and Value */}
                   <div className="services-footer">
                     <h4 className="fw-bold">{item.title}</h4>
-                    {/* If value is JSX (like <a>), render directly */}
                     <div className="mt-1">{item.value}</div>
                   </div>
                 </div>

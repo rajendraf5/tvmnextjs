@@ -1,7 +1,5 @@
-"use client"; // Only if using any client-side features (optional here)
-
+"use client";
 import servicesData from "./servicesData";
-
 const Ourservices = () => {
   const heading = "Our services";
   const heading_sub_title = "We Are Offering All Kinds of IT Solutions Services";
