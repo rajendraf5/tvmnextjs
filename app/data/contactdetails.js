@@ -1,4 +1,4 @@
-const contactData = {
+const contactDetails = {
   hero: {
         title: "staff",
         heading:"Let’s talk!",
@@ -24,4 +24,4 @@ const contactData = {
     ]
       
 }
-export default contactData
+export default contactDetails

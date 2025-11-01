@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-import data from "@/app/data/contactInfo"
+import data from "@/app/data/contactdetails";
 import ContactForm from '@/components/ContactForm';
 const Contact = () =>{
     const { hero, address } = data;

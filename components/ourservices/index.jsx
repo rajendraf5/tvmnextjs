@@ -1,4 +1,3 @@
-"use client";
 import servicesData from "./servicesData";
 const Ourservices = () => {
   const heading = "Our services";
