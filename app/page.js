@@ -1,7 +1,7 @@
 
 import ResponsiveCarousel from "@/components/ResponsiveCarousel";
 import styles from "./page.module.css";
-import Ourservices from "@/components/Ourservices";
+import ServicesSection from "@/components/ServicesSection";
 import IndustriesServiced from "@/components/IndustriesServiced";
 import SolutionsCarousel from "@/components/SolutionsCarousel";
 import AboutSection from "@/components/AboutSection";
@@ -20,7 +20,8 @@ export default function Home() {
         <ResponsiveCarousel images={imageList} />
         <SolutionsCarousel />
         <AboutSection />
-        <Ourservices />
+        {/* <Ourservices /> */}
+        <ServicesSection  />
         <OurProjects />
         <IndustriesServiced />
       </main>
